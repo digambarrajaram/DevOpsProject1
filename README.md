@@ -1,6 +1,5 @@
 # Enterprise DevOps CI/CD Pipeline - Jenkins, Maven, GitHub, Ansible & Docker
 
-<<<<<<< HEAD
 [![DevOps Pipeline](https://img.shields.io/badge/DevOps-CI/CD%20Pipeline-blue.svg)](https://github.com/iam-aniketmore/DevOpsProject1)
 [![Java](https://img.shields.io/badge/Java-11+-orange.svg)](https://www.oracle.com/java/)
 [![Maven](https://img.shields.io/badge/Maven-3.8+-red.svg)](https://maven.apache.org/)
