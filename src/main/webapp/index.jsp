@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="DevOps CI/CD Pipeline Demo Application">
-    <title>**DevOps Project - CI/CD Pipeline**</title>
+    <title>DevOps Project - CI/CD Pipeline</title>
     <style>
         * {
             margin: 0;
@@ -109,7 +109,7 @@
 <body>
     <div class="container">
         <div class="icon">🚀</div>
-        <h1>CI/CD Pipeline Successfully Deployed!</h1>
+        <h1>---CI/CD Pipeline Successfully Deployed!---</h1>
         <div class="status-badge">✓ Pipeline Active</div>
         
         <div class="features">
