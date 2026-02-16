@@ -109,7 +109,7 @@
 <body>
     <div class="container">
         <div class="icon">🚀</div>
-        <h1>---CI/CD Pipeline Successfully Deployed!---</h1>
+        <h1>CI/CD Pipeline Successfully Deployed!</h1>
         <div class="status-badge">✓ Pipeline Active</div>
         
         <div class="features">
