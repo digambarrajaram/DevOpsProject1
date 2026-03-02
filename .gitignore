@@ -1,0 +1,47 @@
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Credentials/Secrets - NEVER commit these
+*.pem
+*.key
+*.crt
+credentials.json
+secrets.yaml
+.env
+*.secret
+
+# Jenkins
+.jenkins/
+jenkins_home/
+
+# Docker
+.docker/
+
+# Build artifacts
+build/
+out/

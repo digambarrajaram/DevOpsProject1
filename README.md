@@ -210,8 +210,8 @@ graph TB
    yum install ansible* -y
    hostnamectl set-hostname ansible
    useradd itadmin
-   echo 111 | passwd --stdin itadmin
-   echo 111 | passwd --stdin root
+   # SECURITY: Set passwords interactively - never hardcode
+   # Set password interactively
    echo "itadmin ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
    sed 's/PasswordAuthentication no/PasswordAuthentication yes/' -i /etc/ssh/sshd_config
    echo PermitRootLogin yes >> /etc/ssh/sshd_config
@@ -256,8 +256,8 @@ graph TB
    yum update -y
    hostnamectl set-hostname docker-node1
    useradd itadmin
-   echo 111 | passwd --stdin itadmin
-   echo 111 | passwd --stdin root
+   # SECURITY: Set passwords interactively - never hardcode
+   # Set password interactively
    echo "itadmin ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
    sed 's/PasswordAuthentication no/PasswordAuthentication yes/' -i /etc/ssh/sshd_config
    echo PermitRootLogin yes >> /etc/ssh/sshd_config
@@ -341,7 +341,7 @@ Create `/opt/project/create-docker-container.yml`:
    - Name: `Ansible_Server`
    - Hostname: `ansible-server-ip`
    - Username: `itadmin`
-   - Password: `111`
+   - Password: `Use_Jenkins_Credentials_Store`
 
 3. **Update Jenkins Job**
    - Post-build Actions → Send build artifacts over SSH
