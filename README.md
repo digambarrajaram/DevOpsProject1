@@ -1,3 +1,7 @@
+## 🚀 Project Goal
+
+To simulate a real-world enterprise DevOps environment by implementing a fully automated CI/CD pipeline using industry-standard tools and infrastructure best practices.
+
 # Enterprise DevOps CI/CD Pipeline - Jenkins, Maven, GitHub, Ansible & Docker
 
 [![DevOps Pipeline](https://img.shields.io/badge/DevOps-CI/CD%20Pipeline-blue.svg)](https://github.com/iam-aniketmore/DevOpsProject1)
